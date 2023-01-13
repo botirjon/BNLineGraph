@@ -1,0 +1,6 @@
+framework module Pods_BNLineGraph_Tests {
+  umbrella header "Pods-BNLineGraph_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

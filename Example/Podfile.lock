@@ -1,0 +1,16 @@
+PODS:
+  - BNLineGraph (0.1.0)
+
+DEPENDENCIES:
+  - BNLineGraph (from `../`)
+
+EXTERNAL SOURCES:
+  BNLineGraph:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BNLineGraph: a63d5d644f1e0d76c6be708cfa1e3725a202b9ee
+
+PODFILE CHECKSUM: c9bd794f8432819aa7e5879b1509c1bfecfaf8ed
+
+COCOAPODS: 1.11.3

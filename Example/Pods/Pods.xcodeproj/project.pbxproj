@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DE231118618D43281700AD14CBA7A7A /* Pods-BNLineGraph_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5958646B31CEA5A05BF6A173FE80AE7 /* Pods-BNLineGraph_Example-dummy.m */; };
+		221F61EC3C48ABC1E7E057C25325F290 /* BNLineGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3837941C637D20FEE94F7B85D4B76 /* BNLineGraphView.swift */; };
+		37DCFCB1AB5D5B8DF7181C41C05C09A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		45462FD8DCBB26146513CC6345A542E9 /* Pods-BNLineGraph_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7FB2241DECDACED558738D1B5297B33 /* Pods-BNLineGraph_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50A7C0EE897444F05FE98F75A54B8FEE /* BNLineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D46E2B643C30B6ADB665C2A30CB2B8E /* BNLineGraph.swift */; };
+		524AE0210D1C10B03E385F799AA0C0E9 /* BNLineGraph-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 742E7356109055601B880DD1F8CAF52D /* BNLineGraph-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5919A726D34E5D18635F4B53A6390FFE /* BNLineGraph-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1563202009806E9FDF63681EF6F9FA /* BNLineGraph-dummy.m */; };
+		653C1EA262B5AFBD11C0B0D2B7EF9D5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8BEAB921129BA99EA04B5225C51B4F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9DAD9A36C4958AB88757D57F7CB69FA5 /* Pods-BNLineGraph_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DF7247DCFA3C91C57505CDB32ACA7B /* Pods-BNLineGraph_Tests-dummy.m */; };
+		DD088F6C88D1A3D3012C6637EAA28B7A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F68100AAB416A54F8CDA0BE8E04EA8 /* Models.swift */; };
+		E278EF97457B293A03B3547B34A136C3 /* Pods-BNLineGraph_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2DB94AADCE6A2C47FF6BAE7D3157EB /* Pods-BNLineGraph_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E83C72C253426A1D6B3F3D32A4AE31B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A170D5BE131446F887CDB472C775A2F;
+			remoteInfo = "Pods-BNLineGraph_Example";
+		};
+		ECC8742D302344CEE7137774A9E9CF1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D8685EE502BD344777EA7A4793556C7;
+			remoteInfo = BNLineGraph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C3837941C637D20FEE94F7B85D4B76 /* BNLineGraphView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BNLineGraphView.swift; path = BNLineGraph/Classes/BNLineGraphView.swift; sourceTree = "<group>"; };
+		1B2DB94AADCE6A2C47FF6BAE7D3157EB /* Pods-BNLineGraph_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BNLineGraph_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1D46E2B643C30B6ADB665C2A30CB2B8E /* BNLineGraph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BNLineGraph.swift; path = BNLineGraph/Classes/BNLineGraph.swift; sourceTree = "<group>"; };
+		33DF7247DCFA3C91C57505CDB32ACA7B /* Pods-BNLineGraph_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BNLineGraph_Tests-dummy.m"; sourceTree = "<group>"; };
+		34C1E9B80655AC4C62946C8818CADA3C /* BNLineGraph-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BNLineGraph-Info.plist"; sourceTree = "<group>"; };
+		38D56A64856F80687D0F58BF1B358CEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		47684983A3EA4834B8FD43B5A3358538 /* BNLineGraph.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BNLineGraph.modulemap; sourceTree = "<group>"; };
+		4BA5B35206402C0DB7386AAAB5EAAD19 /* BNLineGraph.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BNLineGraph.release.xcconfig; sourceTree = "<group>"; };
+		59F68100AAB416A54F8CDA0BE8E04EA8 /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Models.swift; path = BNLineGraph/Classes/Models.swift; sourceTree = "<group>"; };
+		5A8FDE5BA3D88A5E0DAFC3D4EF879C32 /* BNLineGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BNLineGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B514190A0A6FDD122AD51C61BE7526B /* Pods-BNLineGraph_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNLineGraph_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6B6F8A87148BDA240B153D977D133644 /* Pods-BNLineGraph_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BNLineGraph_Example.modulemap"; sourceTree = "<group>"; };
+		6DD89AE8A47B01C1EB3F256D6EFB2198 /* BNLineGraph.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BNLineGraph.debug.xcconfig; sourceTree = "<group>"; };
+		71934156BE37F319170F21F0F658120D /* Pods-BNLineGraph_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNLineGraph_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73BCE88245757E9300774BB32E9617F8 /* Pods-BNLineGraph_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BNLineGraph_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		742E7356109055601B880DD1F8CAF52D /* BNLineGraph-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BNLineGraph-umbrella.h"; sourceTree = "<group>"; };
+		7B1563202009806E9FDF63681EF6F9FA /* BNLineGraph-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BNLineGraph-dummy.m"; sourceTree = "<group>"; };
+		8511BF8214633F4EAAAF2664436A4341 /* Pods-BNLineGraph_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNLineGraph_Tests-Info.plist"; sourceTree = "<group>"; };
+		8E5569ED9C1BB337A2E6CD8876F1442B /* Pods-BNLineGraph_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNLineGraph_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F097584BBCF197F47D04E09C55A58FF /* Pods-BNLineGraph_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNLineGraph_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		951A3BF82C0F329167A72F58460AB334 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		97B4E119F5602C012C03EE99A79C250C /* Pods-BNLineGraph_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BNLineGraph_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9838069502DB87CD66A38E0DFCDD4277 /* Pods-BNLineGraph_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BNLineGraph_Example"; path = Pods_BNLineGraph_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B053CA6ACE6407BD3CD64AAFAD3FF991 /* Pods-BNLineGraph_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNLineGraph_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C395C0B79EE7DC069DE22563D3F58308 /* BNLineGraph.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BNLineGraph.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		CBB16CD7D1F63A552494043139635D6D /* Pods-BNLineGraph_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNLineGraph_Example-Info.plist"; sourceTree = "<group>"; };
+		CEAC711339DF08319E65CC52AF8FF026 /* BNLineGraph-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BNLineGraph-prefix.pch"; sourceTree = "<group>"; };
+		E34E1A2946575FCE7C3A83374460C1D9 /* Pods-BNLineGraph_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNLineGraph_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5958646B31CEA5A05BF6A173FE80AE7 /* Pods-BNLineGraph_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BNLineGraph_Example-dummy.m"; sourceTree = "<group>"; };
+		E7FB2241DECDACED558738D1B5297B33 /* Pods-BNLineGraph_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BNLineGraph_Example-umbrella.h"; sourceTree = "<group>"; };
+		F0BBAC943E7777A143FDAFE5619D11E2 /* Pods-BNLineGraph_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BNLineGraph_Tests"; path = Pods_BNLineGraph_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F129DA30DE82A5D81023D0EFCA512DCE /* Pods-BNLineGraph_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BNLineGraph_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8C76E00E3340F3078B413F3E90AA5D8 /* Pods-BNLineGraph_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BNLineGraph_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DFFD6270BA6EA25EEE0406C5068023C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653C1EA262B5AFBD11C0B0D2B7EF9D5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275635CB7D087835C6CAB7F0E1E9A2EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DCFCB1AB5D5B8DF7181C41C05C09A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98DCD39E80BA838E754B73F330F561B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEAB921129BA99EA04B5225C51B4F5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0580D447A6DBA491557ABEFDE8748B51 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47684983A3EA4834B8FD43B5A3358538 /* BNLineGraph.modulemap */,
+				7B1563202009806E9FDF63681EF6F9FA /* BNLineGraph-dummy.m */,
+				34C1E9B80655AC4C62946C8818CADA3C /* BNLineGraph-Info.plist */,
+				CEAC711339DF08319E65CC52AF8FF026 /* BNLineGraph-prefix.pch */,
+				742E7356109055601B880DD1F8CAF52D /* BNLineGraph-umbrella.h */,
+				6DD89AE8A47B01C1EB3F256D6EFB2198 /* BNLineGraph.debug.xcconfig */,
+				4BA5B35206402C0DB7386AAAB5EAAD19 /* BNLineGraph.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BNLineGraph";
+			sourceTree = "<group>";
+		};
+		118B2C73AEE134B19063192DCE6F49C5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				220EC80FE248D2D8872B7B697777EBFD /* BNLineGraph */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1BE5DCAF3A4F3F1C5A6A028E1AB7ABDE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C395C0B79EE7DC069DE22563D3F58308 /* BNLineGraph.podspec */,
+				951A3BF82C0F329167A72F58460AB334 /* LICENSE */,
+				38D56A64856F80687D0F58BF1B358CEE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		220EC80FE248D2D8872B7B697777EBFD /* BNLineGraph */ = {
+			isa = PBXGroup;
+			children = (
+				1D46E2B643C30B6ADB665C2A30CB2B8E /* BNLineGraph.swift */,
+				00C3837941C637D20FEE94F7B85D4B76 /* BNLineGraphView.swift */,
+				59F68100AAB416A54F8CDA0BE8E04EA8 /* Models.swift */,
+				1BE5DCAF3A4F3F1C5A6A028E1AB7ABDE /* Pod */,
+				0580D447A6DBA491557ABEFDE8748B51 /* Support Files */,
+			);
+			name = BNLineGraph;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C393AD26723642A5BFD4311A698E3B2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE0AE8652FD6D9D4F29EA10743E229DB /* Pods-BNLineGraph_Example */,
+				C0EFA16F4166539879DED36158239A51 /* Pods-BNLineGraph_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0EFA16F4166539879DED36158239A51 /* Pods-BNLineGraph_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F8C76E00E3340F3078B413F3E90AA5D8 /* Pods-BNLineGraph_Tests.modulemap */,
+				F129DA30DE82A5D81023D0EFCA512DCE /* Pods-BNLineGraph_Tests-acknowledgements.markdown */,
+				E34E1A2946575FCE7C3A83374460C1D9 /* Pods-BNLineGraph_Tests-acknowledgements.plist */,
+				33DF7247DCFA3C91C57505CDB32ACA7B /* Pods-BNLineGraph_Tests-dummy.m */,
+				8511BF8214633F4EAAAF2664436A4341 /* Pods-BNLineGraph_Tests-Info.plist */,
+				1B2DB94AADCE6A2C47FF6BAE7D3157EB /* Pods-BNLineGraph_Tests-umbrella.h */,
+				8F097584BBCF197F47D04E09C55A58FF /* Pods-BNLineGraph_Tests.debug.xcconfig */,
+				71934156BE37F319170F21F0F658120D /* Pods-BNLineGraph_Tests.release.xcconfig */,
+			);
+			name = "Pods-BNLineGraph_Tests";
+			path = "Target Support Files/Pods-BNLineGraph_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				118B2C73AEE134B19063192DCE6F49C5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F2F7457C9A7367A9D177353BE79F33DB /* Products */,
+				7C393AD26723642A5BFD4311A698E3B2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2F7457C9A7367A9D177353BE79F33DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A8FDE5BA3D88A5E0DAFC3D4EF879C32 /* BNLineGraph.framework */,
+				9838069502DB87CD66A38E0DFCDD4277 /* Pods-BNLineGraph_Example */,
+				F0BBAC943E7777A143FDAFE5619D11E2 /* Pods-BNLineGraph_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE0AE8652FD6D9D4F29EA10743E229DB /* Pods-BNLineGraph_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6B6F8A87148BDA240B153D977D133644 /* Pods-BNLineGraph_Example.modulemap */,
+				73BCE88245757E9300774BB32E9617F8 /* Pods-BNLineGraph_Example-acknowledgements.markdown */,
+				8E5569ED9C1BB337A2E6CD8876F1442B /* Pods-BNLineGraph_Example-acknowledgements.plist */,
+				E5958646B31CEA5A05BF6A173FE80AE7 /* Pods-BNLineGraph_Example-dummy.m */,
+				97B4E119F5602C012C03EE99A79C250C /* Pods-BNLineGraph_Example-frameworks.sh */,
+				CBB16CD7D1F63A552494043139635D6D /* Pods-BNLineGraph_Example-Info.plist */,
+				E7FB2241DECDACED558738D1B5297B33 /* Pods-BNLineGraph_Example-umbrella.h */,
+				5B514190A0A6FDD122AD51C61BE7526B /* Pods-BNLineGraph_Example.debug.xcconfig */,
+				B053CA6ACE6407BD3CD64AAFAD3FF991 /* Pods-BNLineGraph_Example.release.xcconfig */,
+			);
+			name = "Pods-BNLineGraph_Example";
+			path = "Target Support Files/Pods-BNLineGraph_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7AD3346346392D226EE49AF01E831F51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45462FD8DCBB26146513CC6345A542E9 /* Pods-BNLineGraph_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3684A392EA4AB751D69C1BE37106E64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524AE0210D1C10B03E385F799AA0C0E9 /* BNLineGraph-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18BC076ED260E78652E02D849ADA739 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E278EF97457B293A03B3547B34A136C3 /* Pods-BNLineGraph_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29BE864CCF541A8542564C97540A8F63 /* Pods-BNLineGraph_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBE6FED9DC729FA1CCBBE6C9961ED732 /* Build configuration list for PBXNativeTarget "Pods-BNLineGraph_Tests" */;
+			buildPhases = (
+				C18BC076ED260E78652E02D849ADA739 /* Headers */,
+				6EAFB438F6F610BBE9F2B95BAB0398F2 /* Sources */,
+				275635CB7D087835C6CAB7F0E1E9A2EB /* Frameworks */,
+				D06CB0F6232BDA07BD84DBB9926AF814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D02447D6E2C2650CD0890DE35D6BB9 /* PBXTargetDependency */,
+			);
+			name = "Pods-BNLineGraph_Tests";
+			productName = Pods_BNLineGraph_Tests;
+			productReference = F0BBAC943E7777A143FDAFE5619D11E2 /* Pods-BNLineGraph_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A170D5BE131446F887CDB472C775A2F /* Pods-BNLineGraph_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D67FF7DE3AE5D15939883131F803EF /* Build configuration list for PBXNativeTarget "Pods-BNLineGraph_Example" */;
+			buildPhases = (
+				7AD3346346392D226EE49AF01E831F51 /* Headers */,
+				0BB4F759E24E7CF84070CFCE4DCB8C01 /* Sources */,
+				B98DCD39E80BA838E754B73F330F561B /* Frameworks */,
+				F026752470073E55206CEE7F1DC32109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1574BCF092A1ABD0BBEDA2E717111AF /* PBXTargetDependency */,
+			);
+			name = "Pods-BNLineGraph_Example";
+			productName = Pods_BNLineGraph_Example;
+			productReference = 9838069502DB87CD66A38E0DFCDD4277 /* Pods-BNLineGraph_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		2D8685EE502BD344777EA7A4793556C7 /* BNLineGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0182B4538712952AE5682596D2C2FA7 /* Build configuration list for PBXNativeTarget "BNLineGraph" */;
+			buildPhases = (
+				B3684A392EA4AB751D69C1BE37106E64 /* Headers */,
+				A28C5A75D0DDCEBE1729B71FD4236BA2 /* Sources */,
+				0DFFD6270BA6EA25EEE0406C5068023C /* Frameworks */,
+				E96CDD0D01F9AD6991B295669155381B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BNLineGraph;
+			productName = BNLineGraph;
+			productReference = 5A8FDE5BA3D88A5E0DAFC3D4EF879C32 /* BNLineGraph.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F2F7457C9A7367A9D177353BE79F33DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D8685EE502BD344777EA7A4793556C7 /* BNLineGraph */,
+				2A170D5BE131446F887CDB472C775A2F /* Pods-BNLineGraph_Example */,
+				29BE864CCF541A8542564C97540A8F63 /* Pods-BNLineGraph_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D06CB0F6232BDA07BD84DBB9926AF814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96CDD0D01F9AD6991B295669155381B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F026752470073E55206CEE7F1DC32109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BB4F759E24E7CF84070CFCE4DCB8C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE231118618D43281700AD14CBA7A7A /* Pods-BNLineGraph_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EAFB438F6F610BBE9F2B95BAB0398F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAD9A36C4958AB88757D57F7CB69FA5 /* Pods-BNLineGraph_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28C5A75D0DDCEBE1729B71FD4236BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A7C0EE897444F05FE98F75A54B8FEE /* BNLineGraph.swift in Sources */,
+				5919A726D34E5D18635F4B53A6390FFE /* BNLineGraph-dummy.m in Sources */,
+				221F61EC3C48ABC1E7E057C25325F290 /* BNLineGraphView.swift in Sources */,
+				DD088F6C88D1A3D3012C6637EAA28B7A /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1D02447D6E2C2650CD0890DE35D6BB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BNLineGraph_Example";
+			target = 2A170D5BE131446F887CDB472C775A2F /* Pods-BNLineGraph_Example */;
+			targetProxy = E83C72C253426A1D6B3F3D32A4AE31B8 /* PBXContainerItemProxy */;
+		};
+		E1574BCF092A1ABD0BBEDA2E717111AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BNLineGraph;
+			target = 2D8685EE502BD344777EA7A4793556C7 /* BNLineGraph */;
+			targetProxy = ECC8742D302344CEE7137774A9E9CF1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		017A7C76FD6F86EBF6AED905D6C96A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA5B35206402C0DB7386AAAB5EAAD19 /* BNLineGraph.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BNLineGraph/BNLineGraph-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BNLineGraph/BNLineGraph-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BNLineGraph/BNLineGraph.modulemap";
+				PRODUCT_MODULE_NAME = BNLineGraph;
+				PRODUCT_NAME = BNLineGraph;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1F38AA0A4725C87ED7DCB032948F1EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B514190A0A6FDD122AD51C61BE7526B /* Pods-BNLineGraph_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BNLineGraph_Example/Pods-BNLineGraph_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BNLineGraph_Example/Pods-BNLineGraph_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8B8A9533F53E514AF05CA2F5FD724066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71934156BE37F319170F21F0F658120D /* Pods-BNLineGraph_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BNLineGraph_Tests/Pods-BNLineGraph_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BNLineGraph_Tests/Pods-BNLineGraph_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DDAA99120893DB552E0C348966EC9700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F097584BBCF197F47D04E09C55A58FF /* Pods-BNLineGraph_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BNLineGraph_Tests/Pods-BNLineGraph_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BNLineGraph_Tests/Pods-BNLineGraph_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECD7FD05F7B92A6F5D3DE49327D6ABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DD89AE8A47B01C1EB3F256D6EFB2198 /* BNLineGraph.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BNLineGraph/BNLineGraph-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BNLineGraph/BNLineGraph-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BNLineGraph/BNLineGraph.modulemap";
+				PRODUCT_MODULE_NAME = BNLineGraph;
+				PRODUCT_NAME = BNLineGraph;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9195BA000C3D4BC851414D17778BECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B053CA6ACE6407BD3CD64AAFAD3FF991 /* Pods-BNLineGraph_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BNLineGraph_Example/Pods-BNLineGraph_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BNLineGraph_Example/Pods-BNLineGraph_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D67FF7DE3AE5D15939883131F803EF /* Build configuration list for PBXNativeTarget "Pods-BNLineGraph_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F38AA0A4725C87ED7DCB032948F1EF5 /* Debug */,
+				F9195BA000C3D4BC851414D17778BECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0182B4538712952AE5682596D2C2FA7 /* Build configuration list for PBXNativeTarget "BNLineGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD7FD05F7B92A6F5D3DE49327D6ABDF /* Debug */,
+				017A7C76FD6F86EBF6AED905D6C96A8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBE6FED9DC729FA1CCBBE6C9961ED732 /* Build configuration list for PBXNativeTarget "Pods-BNLineGraph_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAA99120893DB552E0C348966EC9700 /* Debug */,
+				8B8A9533F53E514AF05CA2F5FD724066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

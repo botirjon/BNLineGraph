@@ -1,0 +1,6 @@
+framework module BNLineGraph {
+  umbrella header "BNLineGraph-umbrella.h"
+
+  export *
+  module * { export * }
+}
