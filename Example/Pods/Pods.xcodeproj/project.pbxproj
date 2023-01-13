@@ -11,9 +11,10 @@
 		221F61EC3C48ABC1E7E057C25325F290 /* BNLineGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3837941C637D20FEE94F7B85D4B76 /* BNLineGraphView.swift */; };
 		37DCFCB1AB5D5B8DF7181C41C05C09A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		45462FD8DCBB26146513CC6345A542E9 /* Pods-BNLineGraph_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7FB2241DECDACED558738D1B5297B33 /* Pods-BNLineGraph_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50A7C0EE897444F05FE98F75A54B8FEE /* BNLineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D46E2B643C30B6ADB665C2A30CB2B8E /* BNLineGraph.swift */; };
 		524AE0210D1C10B03E385F799AA0C0E9 /* BNLineGraph-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 742E7356109055601B880DD1F8CAF52D /* BNLineGraph-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5919A726D34E5D18635F4B53A6390FFE /* BNLineGraph-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1563202009806E9FDF63681EF6F9FA /* BNLineGraph-dummy.m */; };
+		609DAB6E29719F5F003F8F30 /* BNSingleLineGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609DAB6D29719F5F003F8F30 /* BNSingleLineGraphView.swift */; };
+		609DAB702971A052003F8F30 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609DAB6F2971A052003F8F30 /* Extensions.swift */; };
 		653C1EA262B5AFBD11C0B0D2B7EF9D5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8BEAB921129BA99EA04B5225C51B4F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9DAD9A36C4958AB88757D57F7CB69FA5 /* Pods-BNLineGraph_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DF7247DCFA3C91C57505CDB32ACA7B /* Pods-BNLineGraph_Tests-dummy.m */; };
@@ -41,7 +42,6 @@
 /* Begin PBXFileReference section */
 		00C3837941C637D20FEE94F7B85D4B76 /* BNLineGraphView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BNLineGraphView.swift; path = BNLineGraph/Classes/BNLineGraphView.swift; sourceTree = "<group>"; };
 		1B2DB94AADCE6A2C47FF6BAE7D3157EB /* Pods-BNLineGraph_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BNLineGraph_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1D46E2B643C30B6ADB665C2A30CB2B8E /* BNLineGraph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BNLineGraph.swift; path = BNLineGraph/Classes/BNLineGraph.swift; sourceTree = "<group>"; };
 		33DF7247DCFA3C91C57505CDB32ACA7B /* Pods-BNLineGraph_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BNLineGraph_Tests-dummy.m"; sourceTree = "<group>"; };
 		34C1E9B80655AC4C62946C8818CADA3C /* BNLineGraph-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BNLineGraph-Info.plist"; sourceTree = "<group>"; };
 		38D56A64856F80687D0F58BF1B358CEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -50,6 +50,8 @@
 		59F68100AAB416A54F8CDA0BE8E04EA8 /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Models.swift; path = BNLineGraph/Classes/Models.swift; sourceTree = "<group>"; };
 		5A8FDE5BA3D88A5E0DAFC3D4EF879C32 /* BNLineGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BNLineGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B514190A0A6FDD122AD51C61BE7526B /* Pods-BNLineGraph_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNLineGraph_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		609DAB6D29719F5F003F8F30 /* BNSingleLineGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BNSingleLineGraphView.swift; sourceTree = "<group>"; };
+		609DAB6F2971A052003F8F30 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		6B6F8A87148BDA240B153D977D133644 /* Pods-BNLineGraph_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BNLineGraph_Example.modulemap"; sourceTree = "<group>"; };
 		6DD89AE8A47B01C1EB3F256D6EFB2198 /* BNLineGraph.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BNLineGraph.debug.xcconfig; sourceTree = "<group>"; };
 		71934156BE37F319170F21F0F658120D /* Pods-BNLineGraph_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNLineGraph_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,9 +142,10 @@
 		220EC80FE248D2D8872B7B697777EBFD /* BNLineGraph */ = {
 			isa = PBXGroup;
 			children = (
-				1D46E2B643C30B6ADB665C2A30CB2B8E /* BNLineGraph.swift */,
+				609DAB6D29719F5F003F8F30 /* BNSingleLineGraphView.swift */,
 				00C3837941C637D20FEE94F7B85D4B76 /* BNLineGraphView.swift */,
 				59F68100AAB416A54F8CDA0BE8E04EA8 /* Models.swift */,
+				609DAB6F2971A052003F8F30 /* Extensions.swift */,
 				1BE5DCAF3A4F3F1C5A6A028E1AB7ABDE /* Pod */,
 				0580D447A6DBA491557ABEFDE8748B51 /* Support Files */,
 			);
@@ -389,7 +392,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50A7C0EE897444F05FE98F75A54B8FEE /* BNLineGraph.swift in Sources */,
+				609DAB702971A052003F8F30 /* Extensions.swift in Sources */,
+				609DAB6E29719F5F003F8F30 /* BNSingleLineGraphView.swift in Sources */,
 				5919A726D34E5D18635F4B53A6390FFE /* BNLineGraph-dummy.m in Sources */,
 				221F61EC3C48ABC1E7E057C25325F290 /* BNLineGraphView.swift in Sources */,
 				DD088F6C88D1A3D3012C6637EAA28B7A /* Models.swift in Sources */,

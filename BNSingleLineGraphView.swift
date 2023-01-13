@@ -1,19 +1,31 @@
 //
-//  BNLineGraph.swift
-//  SQB-BUSINESS
+//  BNSingleLineGraphView.swift
+//  BNLineGraph
 //
-//  Created by Botirjon Nasridinov on 07/01/23.
+//  Created by Botirjon Nasridinov on 13/01/23.
 //
 
 import UIKit
 
-public class BNLineGraph: UIView {
+public class BNSingleLineGraphView: UIView {
     
     private var values: [BNLineGraphPoint] = [] {
+        didSet {
+            self.boundaryValues = values.findBoundaryValues()
+//            setNeedsDisplay()
+        }
+    }
+    
+    var boundaryValues: BNLineGraphBoundaryValues = .init() {
         didSet {
             setNeedsDisplay()
         }
     }
+    
+    private var maxX: Float { boundaryValues.maxX }
+    private var maxY: Float { boundaryValues.maxY }
+    private var minX: Float { boundaryValues.minX }
+    private var minY: Float { boundaryValues.minY }
     
     public override var backgroundColor: UIColor? {
         set {
@@ -51,32 +63,27 @@ public class BNLineGraph: UIView {
     
     
     public func setValues(_ values: [BNLineGraphPoint]) {
+        
         self.values = values.sorted(by: {
             $0.independentVariable.value < $1.independentVariable.value
         })
     }
     
-    private func points(for rect: CGRect) -> [CGPoint] {
+    
+    
+    private func mapValuesToPoints(for rect: CGRect) -> [CGPoint] {
         
-        let maxX = values.max { $0.independentVariable.value < $1.independentVariable.value
-        }?.independentVariable.value
         
-        let minX = values.min { $0.independentVariable.value < $1.independentVariable.value
-        }?.independentVariable.value
-        
-        let maxY = values.max { $0.dependentVariable.value < $1.dependentVariable.value
-        }?.dependentVariable.value
-        
-        guard let minX = minX, let maxX = maxX, let maxY = maxY else { return [] }
+        let ratioX = rect.maxX/CGFloat(maxX-minX)
+        let ratioY = rect.maxY/CGFloat(maxY-minY)
         
         return values.map { point in
-            var y = CGFloat(point.dependentVariable.value/maxY)*rect.maxY
+            var y = CGFloat(point.dependentVariable.value)*ratioY-CGFloat(minY)*ratioY
             y = y*cos(.pi)+rect.maxY
-            let x = CGFloat((point.independentVariable.value-minX)/(maxX-minX))*rect.maxX
+            let x = CGFloat(point.independentVariable.value)*ratioX-CGFloat(minX)*ratioX
             return .init(x: x, y: y)
         }
     }
-    
     
     
     public override func draw(_ rect: CGRect) {
@@ -84,14 +91,14 @@ public class BNLineGraph: UIView {
         guard !values.isEmpty else { return }
         
         // 1. Calculate the graph points
-        let points = self.points(for: rect)
+        let points = self.mapValuesToPoints(for: rect)
+        
+        
         
         guard let context = UIGraphicsGetCurrentContext() else {
             return
         }
         
-        // 3. Draw graph points
-//        let line = self.drawGraphPoints(points)
         tintColor.setFill()
         tintColor.setStroke()
         let graphPath = UIBezierPath()
@@ -142,23 +149,5 @@ public class BNLineGraph: UIView {
             start: graphStartPoint,
             end: graphEndPoint,
             options: [])
-        
-        
-        // Draw the circles on top of the graph stroke
-//        points.forEach {
-//            let point: CGPoint = .init(
-//                x: $0.x-Constants.circleDiameter/2,
-//                y: $0.y-Constants.circleDiameter/2)
-//
-//            let circle = UIBezierPath(
-//                ovalIn: CGRect(
-//                    origin: point,
-//                    size: CGSize(
-//                        width: Constants.circleDiameter,
-//                        height: Constants.circleDiameter)
-//                )
-//            )
-//            circle.fill()
-//        }
     }
 }
