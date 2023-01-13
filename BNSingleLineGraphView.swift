@@ -12,7 +12,6 @@ public class BNSingleLineGraphView: UIView {
     private var values: [BNLineGraphPoint] = [] {
         didSet {
             self.boundaryValues = values.findBoundaryValues()
-//            setNeedsDisplay()
         }
     }
     

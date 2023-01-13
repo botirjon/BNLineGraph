@@ -78,18 +78,6 @@ public struct BNSingleLineGraph {
     }
 }
 
-
-internal struct BNSingleLineGraphPoints {
-    var color: UIColor
-    var points: [CGPoint] = []
-    
-    init(color: UIColor, points: [CGPoint] = []) {
-        self.color = color
-        self.points = points
-    }
-}
-
-
 internal struct BNLineGraphBoundaryValues {
     var minX: Float = 0
     var minY: Float = 0
