@@ -21,10 +21,10 @@ public class BNSingleLineGraphView: UIView {
         }
     }
     
-    private var maxX: Float { boundaryValues.maxX }
-    private var maxY: Float { boundaryValues.maxY }
-    private var minX: Float { boundaryValues.minX }
-    private var minY: Float { boundaryValues.minY }
+    private var maxX: CGFloat { boundaryValues.maxX }
+    private var maxY: CGFloat { boundaryValues.maxY }
+    private var minX: CGFloat { boundaryValues.minX }
+    private var minY: CGFloat { boundaryValues.minY }
     
     public override var backgroundColor: UIColor? {
         set {
@@ -64,7 +64,7 @@ public class BNSingleLineGraphView: UIView {
     public func setValues(_ values: [BNLineGraphPoint]) {
         
         self.values = values.sorted(by: {
-            $0.independentVariable.value < $1.independentVariable.value
+            $0.x < $1.x
         })
     }
     
@@ -77,9 +77,9 @@ public class BNSingleLineGraphView: UIView {
         let ratioY = rect.maxY/CGFloat(maxY-minY)
         
         return values.map { point in
-            var y = CGFloat(point.dependentVariable.value)*ratioY-CGFloat(minY)*ratioY
+            var y = point.y*ratioY-minY*ratioY
             y = y*cos(.pi)+rect.maxY
-            let x = CGFloat(point.independentVariable.value)*ratioX-CGFloat(minX)*ratioX
+            let x = point.x*ratioX-minX*ratioX
             return .init(x: x, y: y)
         }
     }

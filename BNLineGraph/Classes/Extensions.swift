@@ -9,20 +9,20 @@ import Foundation
 
 internal extension Array where Element == BNLineGraphPoint {
     func findBoundaryValues() -> BNLineGraphBoundaryValues {
-        var minX: Float!
-        var minY: Float!
-        var maxX: Float!
-        var maxY: Float!
+        var minX: CGFloat!
+        var minY: CGFloat!
+        var maxX: CGFloat!
+        var maxY: CGFloat!
         
         self.enumerated().forEach { index, point in
             if index == 0 {
-                minX = point.independentVariable.value
-                minY = point.dependentVariable.value
-                maxX = point.independentVariable.value
-                maxY = point.dependentVariable.value
+                minX = point.x
+                minY = point.y
+                maxX = point.x
+                maxY = point.y
             } else {
-                let x = point.independentVariable.value
-                let y = point.dependentVariable.value
+                let x = point.x
+                let y = point.y
                 minX = Swift.min(x, minX)
                 minY = Swift.min(y, minY)
                 maxX = Swift.max(x, maxX)
@@ -37,10 +37,10 @@ internal extension Array where Element == BNLineGraphPoint {
 internal extension Array where Element == BNSingleLineGraph {
     
     func findBoundaryValues() -> BNLineGraphBoundaryValues {
-        var minX: Float!
-        var minY: Float!
-        var maxX: Float!
-        var maxY: Float!
+        var minX: CGFloat!
+        var minY: CGFloat!
+        var maxX: CGFloat!
+        var maxY: CGFloat!
         
         self.enumerated().forEach { index, graph in
             let values = graph.values.findBoundaryValues()

@@ -26,10 +26,10 @@ public struct BNLineGraphAxisMarkAttributes {
 
 public struct BNLineGraphAxisMark {
     public var label: String = ""
-    public var value: Float
+    public var value: CGFloat
     public var attributes: BNLineGraphAxisMarkAttributes?
     
-    public init(label: String = "", value: Float, attributes: BNLineGraphAxisMarkAttributes? = nil) {
+    public init(label: String = "", value: CGFloat, attributes: BNLineGraphAxisMarkAttributes? = nil) {
         self.label = label
         self.value = value
         self.attributes = attributes
@@ -48,25 +48,27 @@ public struct BNLineGraphAxisMark {
     }
 }
 
-public struct BNLineGraphVariable {
-    public var label: String = ""
-    public var value: Float
-    
-    public init(label: String = "", value: Float) {
-        self.label = label
-        self.value = value
-    }
-}
+//public struct BNLineGraphVariable {
+//    public var label: String = ""
+//    public var value: CGFloat
+//    
+//    public init(label: String = "", value: CGFloat) {
+//        self.label = label
+//        self.value = value
+//    }
+//}
 
-public struct BNLineGraphPoint {
-    public var dependentVariable: BNLineGraphVariable
-    public var independentVariable: BNLineGraphVariable
-    
-    public init(dependentVariable: BNLineGraphVariable, independentVariable: BNLineGraphVariable) {
-        self.dependentVariable = dependentVariable
-        self.independentVariable = independentVariable
-    }
-}
+public typealias BNLineGraphPoint = CGPoint
+
+//public struct BNLineGraphPoint {
+//    public var y: BNLineGraphVariable
+//    public var x: BNLineGraphVariable
+//
+//    public init(dependentVariable: BNLineGraphVariable, independentVariable: BNLineGraphVariable) {
+//        self.y = dependentVariable
+//        self.x = independentVariable
+//    }
+//}
 
 public struct BNSingleLineGraph {
     public var color: UIColor
@@ -79,12 +81,12 @@ public struct BNSingleLineGraph {
 }
 
 internal struct BNLineGraphBoundaryValues {
-    var minX: Float = 0
-    var minY: Float = 0
-    var maxX: Float = 0
-    var maxY: Float = 0
+    var minX: CGFloat = 0
+    var minY: CGFloat = 0
+    var maxX: CGFloat = 0
+    var maxY: CGFloat = 0
     
-    init(minX: Float = 0, minY: Float = 0, maxX: Float = 0, maxY: Float = 0) {
+    init(minX: CGFloat = 0, minY: CGFloat = 0, maxX: CGFloat = 0, maxY: CGFloat = 0) {
         self.minX = minX
         self.minY = minY
         self.maxX = maxX

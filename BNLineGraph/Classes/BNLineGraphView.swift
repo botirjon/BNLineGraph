@@ -56,10 +56,10 @@ public class BNLineGraphView: UIView {
         }
     }
     
-    private var maxX: Float { boundaryValues.maxX }
-    private var maxY: Float { boundaryValues.maxY }
-    private var minX: Float { boundaryValues.minX }
-    private var minY: Float { boundaryValues.minY }
+    private var maxX: CGFloat { boundaryValues.maxX }
+    private var maxY: CGFloat { boundaryValues.maxY }
+    private var minX: CGFloat { boundaryValues.minX }
+    private var minY: CGFloat { boundaryValues.minY }
     
     
     public override var backgroundColor: UIColor? {

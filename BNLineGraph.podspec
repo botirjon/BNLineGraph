@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BNLineGraph'
-  s.version          = '1.0.0'
+  s.version          = '1.0.2'
   s.summary          = 'A simple line graph.'
 
 # This description is used to generate tags and improve search results.

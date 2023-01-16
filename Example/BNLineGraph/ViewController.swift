@@ -28,17 +28,17 @@ class ViewController: UIViewController {
         ])
         
         let v1: [BNLineGraphPoint] = [
-            .init(dependentVariable: .init(value: 100), independentVariable: .init(value: 10)),
-            .init(dependentVariable: .init(value: 20), independentVariable: .init(value: 20)),
-            .init(dependentVariable: .init(value: 80), independentVariable: .init(value: 30)),
-            .init(dependentVariable: .init(value: 10), independentVariable: .init(value: 40))
+            .init(x: 10, y: 100),
+            .init(x: 20, y: 20),
+            .init(x: 30, y: 80),
+            .init(x: 40, y: 10)
         ]
         
         let v2: [BNLineGraphPoint] = [
-            .init(dependentVariable: .init(value: 10), independentVariable: .init(value: 10)),
-            .init(dependentVariable: .init(value: 80), independentVariable: .init(value: 20)),
-            .init(dependentVariable: .init(value: 20), independentVariable: .init(value: 30)),
-            .init(dependentVariable: .init(value: 100), independentVariable: .init(value: 40))
+            .init(x: 10, y: 10),
+            .init(x: 20, y: 80),
+            .init(x: 30, y: 20),
+            .init(x: 40, y: 100)
         ]
         
         let graphs: [BNSingleLineGraph] = [
